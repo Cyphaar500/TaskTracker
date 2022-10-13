@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: auto;
+  font-family: 'poppins', sans-serif;
+}
+
+.App {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #00000080;
+  border-radius: 5px;
+  overflow: auto;
+  min-height: 300px;
+  max-width: 600px;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.h-title {
+  margin: 0;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.btn {
+  margin: 1px;
+  display: inline-block;
+  border: none;
+  color: white;
+  background-color: green;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #44bd44;
+  cursor: pointer;
+}
+
+.my-form {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.form-inputs {
+  display: block;
+  width: 100%;
+  margin: 15px 10px 15px 1px;
+  padding: 7px 345px 7px 5px;
+}
+
+.form-button {
+  width: 100%;
+  display: block;
+  color: white;
+  background-color: #000000d0;
+  margin: 5px 20px 30px 1px;
+  padding: 10px ;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.form-button:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  padding: 10px ;
+}
+
+.check-box {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0px;
+  font-size: large
+}
+
+.reminder-box {
+  cursor: pointer;
+}
+
+.task {
+  cursor: pointer;
+  margin: 10px 20px 5px 30px;
+  border-style: none;
+  border-left: 5px solid green;
+  padding: 10px;
+  background-color: #ece3e3b2;
+}
+
+.task-app {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* .task-reminder {
+  border-left: 5px solid green;
+} */
+
+.fa-close {
+  color: red;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.Footer {
+  margin: 0;
+  padding: 20px;
+  display: block;
+  text-align: center;
+}
+
+.f-title {
+  margin: 0;
+  padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
